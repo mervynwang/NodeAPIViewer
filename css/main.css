@@ -219,14 +219,14 @@ div.content {
 div.nav {
     background: #444;
     color: #111;
-    width: 190px;
+    width: 9%;
 }
 
 div.item {
-    left: 200px;
+    left: 9%;
     background: #333;
     color: #999;
-    width: 240px;
+    width: 15%;
 }
 
 div.nav::-webkit-scrollbar,
@@ -282,8 +282,9 @@ div.item span {
     font-size: 110%;
 }
 
+
 div.content {
-    left: 450px;
+    left: 25%;
     right: 0;
     background: #222;
     color: #ddd;
