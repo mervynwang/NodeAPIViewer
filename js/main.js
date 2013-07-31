@@ -54,7 +54,7 @@ function printContent (data, level, cb) {
 				$('div.content').append(div);
 
 
-				var item = $('<span>').html('&nbsp;'.repeat((level - 1) * 8) + current.textRaw.replace('\\', ''));
+				var item = $('<span>').html('&nbsp;'.repeat((level - 1) * 4) + current.textRaw.replace('\\', '')).attr('title', current.textRaw);
 				$('div.item').append(item);
 
 				printContent(current, level + 1);

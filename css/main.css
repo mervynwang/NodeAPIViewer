@@ -319,6 +319,32 @@ div.content div {
     font-size: 110%;
 }
 
+div.nav:hover { 
+	width:18%;
+}
+
+div.nav:hover+div.item {
+	left: 18%;
+}
+
+div.item:hover {
+	width:35%;
+	min-width:300px;
+}
+
+div.item:hover+div.content {
+	left: 45%;
+}
+
+div.content:hover {
+	left: 15%;
+}
+
+div.content:hover   {
+	left:20%;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -508,3 +534,5 @@ div.content div {
         page-break-after: avoid;
     }
 }
+
+
